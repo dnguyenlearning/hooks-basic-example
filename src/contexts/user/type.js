@@ -1,0 +1,3 @@
+export const INCREASE_AGE = '[USER]INCREASE_AGE';
+export const DECREASE_AGE = '[USER]DECREASE_AEG';
+export const SET_DEFAULT_USER = '[USER]SET_DEFAULT_USER';

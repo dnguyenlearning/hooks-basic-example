@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user, .counter{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+}
+
+.user{
+    margin-bottom: 20px;
+}
+
+.infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.age, .count{
+    font-size: 50px;
+    font-weight: bolder;
+    color: lightblue;
+}
+
+.name{
+    font-size: 10px;
+}
+
+.control{
+    text-align: center;
+}
+
+.control button{
+    background: lightblue;
+    padding: 5px;
+    border: 1px solid gray;
+    color: black;
+    font-weight: bold;
+}
